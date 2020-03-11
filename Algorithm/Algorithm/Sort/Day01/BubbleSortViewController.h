@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  BubbleSortViewController.h
 //  Algorithm
 //
 //  Created by 葛聪颖 on 2020/3/11.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow *window;
+@interface BubbleSortViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
